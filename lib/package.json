@@ -1,0 +1,42 @@
+{
+  "name": "@dazedi/react-dnd-grid",
+  "version": "0.0.1",
+  "description": "drag and drop grid",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dazedi/react-dnd-grid.git"
+  },
+  "keywords": [
+    "react",
+    "dnd",
+    "grid"
+  ],
+  "author": "Tommi Vepsae",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Dazedi/react-dnd-grid/issues"
+  },
+  "homepage": "https://github.com/Dazedi/react-dnd-grid#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^24.0.1",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@rollup/plugin-terser": "^0.3.0",
+    "@rollup/plugin-typescript": "^11.0.0",
+    "@types/jest": "^29.2.6",
+    "@types/react": "^18.0.27",
+    "react": "^18.2.0",
+    "rollup": "^3.10.1",
+    "rollup-plugin-dts": "^5.1.1",
+    "tslib": "^2.4.1",
+    "typescript": "^4.9.4"
+  },
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts"
+}
